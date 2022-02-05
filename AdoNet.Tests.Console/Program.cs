@@ -172,6 +172,7 @@ namespace AdoNet.Tests.Console
                 }
             };
 
+            adoClient.SerializeAndWriteToFile(aspNetPipeline, "ado-pipelines.yaml");
             adoClient.SerializeAndWriteToFile(githubPipeline, "github-pipelines.yaml");
         }
     }
